@@ -1,0 +1,13 @@
+{
+  "name": "llm-orchestration-engine",
+  "version": "1.0.0",
+  "description": "Hackathon LLM orchestration engine with queue, throttle, circuit breaker, backoff, and DLQ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^14.0.0"
+  }
+}
